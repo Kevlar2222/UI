@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+.arrow {
+    width: 31.11px;
+    height: 31.11px;
+}
+
+.arrowRight:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.back {
+    padding: 15.44px 0 0 15.44px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    line-height: 23px;
+}
+
+.back:hover {
+    opacity: 0.9;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+    color: #462681;
+}
+
+.box1 {
+    padding-left: 25px;
+}
+
+.box2 {
+    padding-left: 44px;
+}
+
+.box3 {
+    padding-left: 33.5px;
+}
+
+.cat {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #462681;
+    display: flex;
+    justify-content: space-between;
+    color: #462681;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.categories {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    color: #462681;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.container {
+    height: 667px;
+    width: 375px;
+    position: relative;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0;
+}
+
+.content {
+    width: 375px;
+    min-height: 450px;
+    border-radius: 40px 40px 0 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    padding: 20px 25px 0 25px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px #0000001A;
+}
+
+.dots {
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.dots:hover {
+    opacity: 0.9;
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 20px;
+    color: #462681;
+    cursor: pointer;
+}
+
+.follow:hover {
+    opacity: 0.9;
+}
+
+.followText {
+    height: 18px;
+}
+
+.header {
+    width: 375px;
+    height: 270px;
+    background-image: url(./Header\ image.png);
+    position: relative;
+    top: 0;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.largeText {
+    font-size: 24px;
+    line-height: 31px;
+}
+
+.plus {
+    padding-right: 5px;
+}
+
+.smallText {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.statistics {
+    display: flex;
+    border-top: 1px solid #462681;
+    border-bottom: 1px solid #462681;
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    font-weight: 900;
+    color: #462681;
+    font-size: 44px;
+}
